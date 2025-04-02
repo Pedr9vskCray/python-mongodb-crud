@@ -44,9 +44,9 @@ book_coll = production.book
 
 # defining our schema
 
-# our schema is which fields from our collection will be present on our dataframe
-# any fields not specified here will not be included
-# any fields that was specified but its not in any of the author documents will be None or NULL
+# our schema is defining which fields from our collection will be present on our dataframe
+# any field not specified here will not be included
+# any field that was specified but its not in any of the documents in the collection will be None or NULL
 
 author = Schema({
     "_id": ObjectId,
