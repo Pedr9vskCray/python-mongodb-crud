@@ -31,7 +31,7 @@ question_coll = jeopardy_db.question
 
 # another way to do queries in mongodb is by using compound queries
 # this is another advanced way of narrowing down our search query
-# using operators to filter out specific results or prioritize specific results
+# using operators to filter out specific results or prioritize others
 
 def compound_queries():
     result = question_coll.aggregate([
